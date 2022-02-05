@@ -1,16 +1,4 @@
 {
-  "name": "inventorycoordination",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "build:ssr": "ng run InventoryCoordination:server:dev",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
-  "private": true,
   "dependencies": {
     "@angular/animations": "11.2.14",
     "@angular/common": "11.2.14",
@@ -51,10 +39,25 @@
     "karma-jasmine-html-reporter": "^1.5.0",
     "typescript": "4.0.8"
   },
+  "name": "inventorycoordination",
   "optionalDependencies": {
     "node-sass": "^5.0.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.4.1",
     "tslint": "~6.1.0"
-  }
+  },
+  "private": true,
+  "resolutions": {
+    "webpack": "^5.0.0"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "build:ssr": "ng run InventoryCoordination:server:dev",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "version": "0.0.0"
 }
