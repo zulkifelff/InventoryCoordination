@@ -4,6 +4,9 @@
     <projectFile profileName="IIS Express">InventoryCoordination.csproj</projectFile>
     <projectFile profileName="InventoryCoordination">InventoryCoordination.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cadf6749-4933-4b93-98c4-69028d680299" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
